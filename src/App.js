@@ -1,11 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import GlobalStyle from './GlobalStyles';
+import ProjectTitle from '../src/components/titleCounter/TitleCounter'
+
 
 function App() {
   return (
-    <div className="App">
-      Counter
-    </div>
+    <>
+        <GlobalStyle />
+        <ProjectTitle />
+    </>
+    
   );
 }
 
